@@ -1,6 +1,14 @@
 /* code style matching */
 
 .hljs {
-  padding: 0;
-  background: #f0f3f3;
+	padding: 0;
+	background: #f0f3f3;
+}
+
+.test {
+	background-color: aliceblue;
+}
+
+* {
+	background-color: black;
 }

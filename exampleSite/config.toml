@@ -2,7 +2,7 @@ baseurl = "/"
 title = "Mainroad"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+theme = "Mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
@@ -20,6 +20,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = true
   post_navigation = true
   post_meta = ["date", "categories"] # Order of post meta information
+  customCSS = ["/css/github.css","/css/custom.css"]
+  customJS = ["/js/highlight.pack.js"]
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
